@@ -1,0 +1,38 @@
+TUNING PARAMS
+
+LR:
+base {'penalty': 'l2', 'random_state': 0, 'solver': 'sag'}
+mi {'penalty': 'none', 'random_state': 0, 'solver': 'newton-cg'}
+et {'penalty': 'none', 'random_state': 0, 'solver': 'newton-cg'}
+pca {'penalty': 'l1', 'random_state': 0, 'solver': 'liblinear'}
+
+LDA:
+base {'shrinkage': 0.0, 'solver': 'lsqr'}
+mi {'shrinkage': 0.5, 'solver': 'lsqr'}
+et {'shrinkage': 0.6, 'solver': 'lsqr'}
+pca {'shrinkage': 0.0, 'solver': 'lsqr'}
+
+NB:
+base {'var_smoothing': 1e-06}
+mi {'var_smoothing': 1.0}
+et {'var_smoothing': 0.1}
+pca {'var_smoothing': 0.01}
+
+RF:
+base {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 1000}
+mi {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 1000}
+et {'bootstrap': False, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 1000}
+pca {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 100}
+
+MLP:
+base {'activation': 'relu', 'hidden_layer_sizes': 250, 'learning_rate_init': 0.1, 'solver': 'sgd'}
+mi {'activation': 'relu', 'hidden_layer_sizes': 250, 'learning_rate_init': 0.1, 'solver': 'sgd'}
+et {'activation': 'relu', 'hidden_layer_sizes': 250, 'learning_rate_init': 0.1, 'solver': 'sgd'}
+pca {'activation': 'relu', 'hidden_layer_sizes': 250, 'learning_rate_init': 0.1, 'solver': 'sgd'}
+
+SVM:
+base {'C': 100, 'gamma': 0.01}
+mi {'C': 100, 'gamma': 0.01}
+et {'C': 100, 'gamma': 0.01}
+pca {'C': 100, 'gamma': 0.01}
+
