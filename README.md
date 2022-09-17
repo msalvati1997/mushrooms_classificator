@@ -1,4 +1,4 @@
-Mushroom classifier
+Classificatore di funghi
 ==================
 
 Machine learning A.A 2021/2022 - Università degli studi di Roma Tor Vergata.
