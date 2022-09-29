@@ -9,7 +9,7 @@ Problema
 
 Risponderemo a questa domanda nel notebook mushrooms.pynb. 
 
-Author
+Authors
 ======================= 
 - [Martina Salvati](https://github.com/msalvati1997)   (0292307)
 - [Matteo Ferretti](https://github.com/IronMatt97)    (0300049)
